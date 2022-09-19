@@ -1,4 +1,4 @@
-variants = %w[Rock Scissors Paper]
+variants = %w(Rock Scissors Paper)
 comp_chosen_variant_number = rand(3)
 print 'Your turn (0 - rock, 1 - scissors, 2 - paper): '
 user_chosen_variant = gets.to_i
