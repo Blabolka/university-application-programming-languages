@@ -1,13 +1,12 @@
 puts 'ENTER FIRST NUMBER:'
 
-# Change from STDIN.gets.chomp.to_i to STDIN.gets.chomp.to_f and divide by zero to got ZeroDivisionError
-first_number = STDIN.gets.chomp.to_f
+first_number = STDIN.gets.chomp.to_i
 
 puts 'ENTER OPERATOR (+ - * /):'
 operation = STDIN.gets.chomp
 
 puts 'ENTER SECOND NUMBER:'
-second_number = STDIN.gets.chomp.to_f
+second_number = STDIN.gets.chomp.to_i
 
 puts 'RESULT:'
 
